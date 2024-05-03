@@ -20,6 +20,10 @@ sudo apt install qt5-default qttools5-dev-tools qttools5-dev
 cmake -DCMAKE_INSTALL_PREFIX=/usr -DQTGUI=YES -DETCDIR=/etc -DNATT=YES .
 
 make && sudo make install
+
+$ cd /etc/
+$ sudo mv iked.conf.sample iked.conf
+
 ```
 
 iked, il servizio ipsec vero e proprio, deve essere attivo perché ikec/qikea/qikec possano funzionare  
