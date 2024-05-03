@@ -15,6 +15,7 @@ libedit-dev     \
 cmake           \
 bison           \
 flex
+sudo apt install qt5-default qttools5-dev-tools qttools5-dev
 
 cmake -DCMAKE_INSTALL_PREFIX=/usr -DQTGUI=YES -DETCDIR=/etc -DNATT=YES .
 
