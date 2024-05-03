@@ -23,6 +23,7 @@ make && sudo make install
 
 $ cd /etc/
 $ sudo mv iked.conf.sample iked.conf
+https://www.xmodulo.com/install-shrew-soft-ipsec-vpn-client-linux.html
 
 ```
 
